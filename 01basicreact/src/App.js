@@ -3,7 +3,7 @@ import Tea from "./Tea";
 function App() {
   return (
     <>
-    <h1>hello with react by hemant bamboriya </h1>
+    <h1>hello with react by Hemant Bamboriya </h1>
      <Tea />
   </>);
 }
