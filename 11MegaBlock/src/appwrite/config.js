@@ -33,7 +33,7 @@ try {
 }
 }
 
-async UpdatePost( slug,{title,content,featuredImage,status}){
+async updatePost( slug,{title,content,featuredImage,status}){
     try {
         return await this.databases.updateDocument(
             conf.appwriteDatabaseId,
